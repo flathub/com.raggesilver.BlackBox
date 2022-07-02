@@ -35,8 +35,8 @@
       "sources" : [
         {
           "type" : "archive",
-          "url" : "https://gitlab.gnome.org/GNOME/vte/-/archive/1398ac862fb10b3cb7cdfc8267be2df5d5f39eb5/vte-1398ac862fb10b3cb7cdfc8267be2df5d5f39eb5.tar.gz",
-          "sha256": "9d76c963d70b19b48ffcbbf2acaee529fb1ec9c53cf0c1f1884f65b2c860bc1f"
+          "url" : "https://gitlab.gnome.org/raggesilver/vte/-/archive/c757fc5ca3f21aa0319d4d189f1022be0fde9cee/vte-c757fc5ca3f21aa0319d4d189f1022be0fde9cee.tar.gz",
+          "sha256": "25245514a86de6a234bfb279fc9a768d9cc753b49849fcb51415e800d83ba078"
         }
       ]
     },
@@ -69,8 +69,8 @@
       "sources" : [
         {
           "type" : "archive",
-          "url" : "https://gitlab.gnome.org/raggesilver/blackbox/-/archive/v0.9.0/blackbox-v0.9.0.tar.gz",
-          "sha256": "7e5c57b2f9b7740e919abf4aa74aa2159d695cad569b381cb5f5632e4831db64"
+          "url" : "https://gitlab.gnome.org/raggesilver/blackbox/-/archive/v0.9.1/blackbox-v0.9.1.tar.gz",
+          "sha256": "4321dbd26af0dddab74d3c714bec7154abc99abec106d0992c8f303eb8449bf1"
         }
       ]
     }
