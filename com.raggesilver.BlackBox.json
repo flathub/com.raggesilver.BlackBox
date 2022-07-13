@@ -26,39 +26,70 @@
   ],
   "modules" : [
     {
-      "name" : "vte",
-      "buildsystem" : "meson",
-      "config-opts": [
-        "-Dgtk4=true",
-        "-Dgtk3=false"
-      ],
-      "sources" : [
+      "name": "vte",
+      "buildsystem": "meson",
+      "config-opts": ["-Dgtk4=true", "-Dgtk3=false"],
+      "sources": [
         {
-          "type" : "archive",
-          "url" : "https://gitlab.gnome.org/raggesilver/vte/-/archive/c757fc5ca3f21aa0319d4d189f1022be0fde9cee/vte-c757fc5ca3f21aa0319d4d189f1022be0fde9cee.tar.gz",
+          "type": "archive",
+          "url": "https://gitlab.gnome.org/raggesilver/vte/-/archive/c757fc5ca3f21aa0319d4d189f1022be0fde9cee/vte-c757fc5ca3f21aa0319d4d189f1022be0fde9cee.tar.gz",
           "sha256": "25245514a86de6a234bfb279fc9a768d9cc753b49849fcb51415e800d83ba078"
         }
       ]
     },
     {
-      "name" : "json-glib",
-      "buildsystem" : "meson",
-      "sources" : [
+      "name": "json-glib",
+      "buildsystem": "meson",
+      "sources": [
         {
-          "type" : "archive",
-          "url" : "https://gitlab.gnome.org/GNOME/json-glib/-/archive/23ae2f59bea7405d95218e82edb7f3c4c7c80a87/json-glib-23ae2f59bea7405d95218e82edb7f3c4c7c80a87.tar.gz",
+          "type": "archive",
+          "url": "https://gitlab.gnome.org/GNOME/json-glib/-/archive/23ae2f59bea7405d95218e82edb7f3c4c7c80a87/json-glib-23ae2f59bea7405d95218e82edb7f3c4c7c80a87.tar.gz",
           "sha256": "9fa88f1b8fc926bfd7c4115354a06f79b7b30fa367450a3e7a36932e3b7022ba"
         }
       ]
     },
     {
-      "name" : "marble",
-      "buildsystem" : "meson",
-      "sources" : [
+      "name": "marble",
+      "buildsystem": "meson",
+      "sources": [
         {
-          "type" : "archive",
-          "url" : "https://gitlab.com/raggesilver/marble/-/archive/6dcc6fefa35f0151b0549c01bd774750fe6bdef8/marble-6dcc6fefa35f0151b0549c01bd774750fe6bdef8.tar.gz",
+          "type": "archive",
+          "url": "https://gitlab.com/raggesilver/marble/-/archive/6dcc6fefa35f0151b0549c01bd774750fe6bdef8/marble-6dcc6fefa35f0151b0549c01bd774750fe6bdef8.tar.gz",
           "sha256": "6fe25ab863bf9a81fac827861b3f17d07fb4a0e4d944dbb0d5b09dfafca59fb4"
+        }
+      ]
+    },
+    {
+      "name": "libsass",
+      "buildsystem": "meson",
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://github.com/lazka/libsass/archive/refs/heads/meson.zip",
+          "sha256": "3692f4d1ac10afe5645a6271d25d53572cd10fcc3f7f12d4fc05ff630d0b97c0"
+        }
+      ]
+    },
+    {
+      "name": "sassc",
+      "buildsystem": "meson",
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://github.com/lazka/sassc/archive/refs/heads/meson.zip",
+          "sha256": "028ef1cce6037db3c69f889951293b7865b74c20c1ee9d2215df79ca7d4a9e61"
+        }
+      ]
+    },
+    {
+      "name": "libadwaita",
+      "buildsystem": "meson",
+      "config-opts": ["-Dtests=false", "-Dexamples=false"],
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://gitlab.gnome.org/GNOME/libadwaita/-/archive/df80e9087b80b6a0c3d2494434391730481789c2/libadwaita-df80e9087b80b6a0c3d2494434391730481789c2.tar.gz",
+          "sha256": "828355cd0f023acb9cb715c0c5e8bf1ac3c12b10f8e2ea285cf638fba89bb01b"
         }
       ]
     },
@@ -69,8 +100,8 @@
       "sources" : [
         {
           "type" : "archive",
-          "url" : "https://gitlab.gnome.org/raggesilver/blackbox/-/archive/v0.10.1/blackbox-v0.10.1.tar.gz",
-          "sha256": "2bac172c7441ad9a87e449a43d2a0efc179b6acf8b3d9600148a2d700bc5f0d1"
+          "url" : "https://gitlab.gnome.org/raggesilver/blackbox/-/archive/v0.11.0/blackbox-v0.11.0.tar.gz",
+          "sha256": "064ce9fe6a31c7d435e17dbc113932a74f195bcb41c23dd331d0e44c9af06128"
         }
       ]
     }
