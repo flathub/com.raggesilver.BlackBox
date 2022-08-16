@@ -32,8 +32,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://gitlab.gnome.org/raggesilver/vte/-/archive/c757fc5ca3f21aa0319d4d189f1022be0fde9cee/vte-c757fc5ca3f21aa0319d4d189f1022be0fde9cee.tar.gz",
-          "sha256": "25245514a86de6a234bfb279fc9a768d9cc753b49849fcb51415e800d83ba078"
+          "url": "https://gitlab.gnome.org/GNOME/vte/-/archive/70366d113516382038c69f863c9915753041e563/vte-70366d113516382038c69f863c9915753041e563.tar.gz",
+          "sha256": "22b7c8298c147faa58c10a1847184745e71d213221ef522bb96c722444ea0d17"
         }
       ]
     },
@@ -88,8 +88,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://gitlab.gnome.org/GNOME/libadwaita/-/archive/df80e9087b80b6a0c3d2494434391730481789c2/libadwaita-df80e9087b80b6a0c3d2494434391730481789c2.tar.gz",
-          "sha256": "828355cd0f023acb9cb715c0c5e8bf1ac3c12b10f8e2ea285cf638fba89bb01b"
+          "url": "https://gitlab.gnome.org/GNOME/libadwaita/-/archive/161249fa953fb06a146d8d22612711707ede1ea9/libadwaita-161249fa953fb06a146d8d22612711707ede1ea9.tar.gz",
+          "sha256": "013608439427187be56765ded578b3edf4d8ff104f4e5b33fd37d6bbdf77bac0"
         }
       ]
     },
@@ -100,8 +100,8 @@
       "sources" : [
         {
           "type" : "archive",
-          "url" : "https://gitlab.gnome.org/raggesilver/blackbox/-/archive/v0.11.3/blackbox-v0.11.3.tar.gz",
-          "sha256": "85efef854f8378c8aeb9df5a167447c17bbf3ba21274cdfcd6cc8e4cd3536aed"
+          "url" : "https://gitlab.gnome.org/raggesilver/blackbox/-/archive/v0.12.0/blackbox-v0.12.0.tar.gz",
+          "sha256": "f6f47c60d2bef7b9b6e1ae49b882a0b76c611736217beae18e883c2a7d85701b"
         }
       ]
     }
