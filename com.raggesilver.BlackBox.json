@@ -66,8 +66,8 @@
       "sources" : [
         {
           "type" : "archive",
-          "url" : "https://gitlab.gnome.org/raggesilver/blackbox/-/archive/v0.13.1/blackbox-v0.13.1.tar.gz",
-          "sha256": "28307428c568258b0c6aefd67060a7ce51a4614d8764a47f6428bfe85375d9ce"
+          "url" : "https://gitlab.gnome.org/raggesilver/blackbox/-/archive/v0.13.2/blackbox-v0.13.2.tar.gz",
+          "sha256": "172154b6d1242c87b38e8513e209aa7621e53581e330896bfeec17a657db2e82"
         }
       ]
     }
