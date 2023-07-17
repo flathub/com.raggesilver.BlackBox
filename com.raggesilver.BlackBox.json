@@ -1,18 +1,19 @@
 {
-  "app-id" : "com.raggesilver.BlackBox",
-  "runtime" : "org.gnome.Platform",
-  "runtime-version" : "43",
-  "sdk" : "org.gnome.Sdk",
-  "command" : "blackbox",
-  "finish-args" : [
-    "--filesystem=home:ro",
+  "app-id": "com.raggesilver.BlackBox",
+  "runtime": "org.gnome.Platform",
+  "runtime-version": "44",
+  "sdk": "org.gnome.Sdk",
+  "command": "blackbox",
+  "finish-args": [
+    "--filesystem=host",
     "--share=ipc",
     "--socket=fallback-x11",
     "--socket=wayland",
-    "--device=dri",
+    "--socket=session-bus",
+    "--device=all",
     "--talk-name=org.freedesktop.Flatpak"
   ],
-  "cleanup" : [
+  "cleanup": [
     "/include",
     "/lib/pkgconfig",
     "/man",
@@ -24,7 +25,7 @@
     "*.la",
     "*.a"
   ],
-  "modules" : [
+  "modules": [
     {
       "name": "vte",
       "buildsystem": "meson",
@@ -32,8 +33,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://gitlab.gnome.org/GNOME/vte/-/archive/015ca4d2fdc57b625add7b23b0afa7193adc45a9/vte-015ca4d2fdc57b625add7b23b0afa7193adc45a9.tar.gz",
-          "sha256": "ba918109936692fe555f1b28f428680ed4940a350709bcf908bdbf9a93498c08"
+          "url": "https://gitlab.gnome.org/GNOME/vte/-/archive/3c8f66be867aca6656e4109ce880b6ea7431b895/vte-3c8f66be867aca6656e4109ce880b6ea7431b895.tar.gz",
+          "sha256": "320618260a29c99ab68d1e8674f6d4926bbf1e7e6541e8e04898fad85bb6e1b9"
         }
       ]
     },
@@ -54,20 +55,20 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://gitlab.com/raggesilver/marble/-/archive/6dcc6fefa35f0151b0549c01bd774750fe6bdef8/marble-6dcc6fefa35f0151b0549c01bd774750fe6bdef8.tar.gz",
-          "sha256": "6fe25ab863bf9a81fac827861b3f17d07fb4a0e4d944dbb0d5b09dfafca59fb4"
+          "url": "https://gitlab.gnome.org/raggesilver/marble/-/archive/f240b2ec7d5cdacb8fdcc553703420dc5101ffdb/marble-f240b2ec7d5cdacb8fdcc553703420dc5101ffdb.tar.gz",
+          "sha256": "46c1172a53cf974a73dc13a2142d022ec6a8dfa614133815df3aa5ede9af0cc1"
         }
       ]
     },
     {
-      "name" : "blackbox",
-      "builddir" : true,
-      "buildsystem" : "meson",
-      "sources" : [
+      "name": "blackbox",
+      "builddir": true,
+      "buildsystem": "meson",
+      "sources": [
         {
-          "type" : "archive",
-          "url" : "https://gitlab.gnome.org/raggesilver/blackbox/-/archive/v0.13.2/blackbox-v0.13.2.tar.gz",
-          "sha256": "172154b6d1242c87b38e8513e209aa7621e53581e330896bfeec17a657db2e82"
+          "type": "archive",
+          "url": "https://gitlab.gnome.org/raggesilver/blackbox/-/archive/v0.14.0/blackbox-v0.14.0.tar.gz",
+          "sha256": "0a8b76666ac71a6dc9e05b8084e1c6c53cda880ad1f8f778d9d5de9a6644ad0d"
         }
       ]
     }
