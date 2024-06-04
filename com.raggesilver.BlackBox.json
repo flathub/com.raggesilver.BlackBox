@@ -14,10 +14,13 @@
   ],
   "cleanup": [
     "/include",
+    "/lib/girepository-1.0",
     "/lib/pkgconfig",
+    "/libexec",
     "/man",
     "/share/doc",
     "/share/gtk-doc",
+    "/share/installed-tests",
     "/share/man",
     "/share/pkgconfig",
     "/share/vala",
@@ -68,6 +71,10 @@
           "type": "archive",
           "url": "https://gitlab.gnome.org/raggesilver/blackbox/-/archive/v0.14.0/blackbox-v0.14.0.tar.gz",
           "sha256": "0a8b76666ac71a6dc9e05b8084e1c6c53cda880ad1f8f778d9d5de9a6644ad0d"
+        },
+        {
+          "type": "patch",
+          "path": "fix_appdata.patch"
         }
       ]
     }
