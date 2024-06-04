@@ -1,0 +1,77 @@
+From 7b184632540f5d4a038b7afdd177f231ecc742e8 Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Tue, 4 Jun 2024 16:47:36 +0300
+Subject: [PATCH] update appdata
+
+Fix appdata papercuts
+---
+ data/com.raggesilver.BlackBox.metainfo.xml.in | 39 ++-------------------------------------
+ 1 file changed, 2 insertions(+), 37 deletions(-)
+
+diff --git a/data/com.raggesilver.BlackBox.metainfo.xml.in b/data/com.raggesilver.BlackBox.metainfo.xml.in
+index 61dfd93..e94ec12 100644
+--- a/data/com.raggesilver.BlackBox.metainfo.xml.in
++++ b/data/com.raggesilver.BlackBox.metainfo.xml.in
+@@ -16,14 +16,6 @@
+     <display_length compare="ge">360</display_length>
+   </recommends>
+ 
+-  <supports>
+-    <control>pointing</control>
+-    <control>keyboard</control>
+-    <control>tablet</control>
+-    <control>touch</control>
+-    <display_length compare="ge">xsmall</display_length>
+-  </supports>
+-
+   <description>
+     <p>
+       Black Box is a native terminal emulator for GNOME that offers superb
+@@ -59,35 +51,7 @@
+     <category>Utility</category>
+   </categories>
+ 
+-  <content_rating type="oars-1.1">
+-    <content_attribute id="violence-cartoon">none</content_attribute>
+-    <content_attribute id="violence-fantasy">none</content_attribute>
+-    <content_attribute id="violence-realistic">none</content_attribute>
+-    <content_attribute id="violence-bloodshed">none</content_attribute>
+-    <content_attribute id="violence-sexual">none</content_attribute>
+-    <content_attribute id="violence-desecration">none</content_attribute>
+-    <content_attribute id="violence-slavery">none</content_attribute>
+-    <content_attribute id="violence-worship">none</content_attribute>
+-    <content_attribute id="drugs-alcohol">none</content_attribute>
+-    <content_attribute id="drugs-narcotics">none</content_attribute>
+-    <content_attribute id="drugs-tobacco">none</content_attribute>
+-    <content_attribute id="sex-nudity">none</content_attribute>
+-    <content_attribute id="sex-themes">none</content_attribute>
+-    <content_attribute id="sex-homosexuality">none</content_attribute>
+-    <content_attribute id="sex-prostitution">none</content_attribute>
+-    <content_attribute id="sex-adultery">none</content_attribute>
+-    <content_attribute id="sex-appearance">none</content_attribute>
+-    <content_attribute id="language-profanity">none</content_attribute>
+-    <content_attribute id="language-humor">none</content_attribute>
+-    <content_attribute id="language-discrimination">none</content_attribute>
+-    <content_attribute id="social-chat">none</content_attribute>
+-    <content_attribute id="social-info">none</content_attribute>
+-    <content_attribute id="social-audio">none</content_attribute>
+-    <content_attribute id="social-location">none</content_attribute>
+-    <content_attribute id="social-contacts">none</content_attribute>
+-    <content_attribute id="money-purchasing">none</content_attribute>
+-    <content_attribute id="money-gambling">none</content_attribute>
+-  </content_rating>
++  <content_rating type="oars-1.1" />
+ 
+   <kudos>
+     <kudo>ModernToolkit</kudo>
+@@ -433,6 +397,7 @@
+   <url type="donation">https://www.patreon.com/raggesilver</url>
+   <url type="help">https://gitlab.gnome.org/raggesilver/blackbox/issues</url>
+   <url type="translate">https://gitlab.gnome.org/raggesilver/blackbox/issues</url>
++  <url type="vcs-browser">https://gitlab.gnome.org/raggesilver/blackbox</url>
+ 
+   <update_contact>pvaqueiroz@gmail.com</update_contact>
+ </component>
+--
+libgit2 1.7.2
+
