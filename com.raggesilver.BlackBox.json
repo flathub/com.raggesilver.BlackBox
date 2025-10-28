@@ -1,7 +1,7 @@
 {
   "app-id": "com.raggesilver.BlackBox",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "46",
+  "runtime-version": "49",
   "sdk": "org.gnome.Sdk",
   "command": "blackbox",
   "finish-args": [
@@ -41,17 +41,6 @@
       ]
     },
     {
-      "name": "json-glib",
-      "buildsystem": "meson",
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://gitlab.gnome.org/GNOME/json-glib/-/archive/23ae2f59bea7405d95218e82edb7f3c4c7c80a87/json-glib-23ae2f59bea7405d95218e82edb7f3c4c7c80a87.tar.gz",
-          "sha256": "9fa88f1b8fc926bfd7c4115354a06f79b7b30fa367450a3e7a36932e3b7022ba"
-        }
-      ]
-    },
-    {
       "name": "marble",
       "buildsystem": "meson",
       "sources": [
@@ -71,6 +60,10 @@
           "type": "archive",
           "url": "https://gitlab.gnome.org/raggesilver/blackbox/-/archive/v0.14.0/blackbox-v0.14.0.tar.gz",
           "sha256": "0a8b76666ac71a6dc9e05b8084e1c6c53cda880ad1f8f778d9d5de9a6644ad0d"
+        },
+        {
+          "type": "patch",
+          "path": "fix-gcc14-return-mismatch-error.patch"
         },
         {
           "type": "patch",
