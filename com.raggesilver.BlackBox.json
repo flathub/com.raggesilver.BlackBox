@@ -1,7 +1,7 @@
 {
   "app-id": "com.raggesilver.BlackBox",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "49",
+  "runtime-version": "50",
   "sdk": "org.gnome.Sdk",
   "command": "blackbox",
   "finish-args": [
@@ -17,15 +17,8 @@
     "/lib/girepository-1.0",
     "/lib/pkgconfig",
     "/libexec",
-    "/man",
-    "/share/doc",
-    "/share/gtk-doc",
-    "/share/installed-tests",
-    "/share/man",
-    "/share/pkgconfig",
-    "/share/vala",
-    "*.la",
-    "*.a"
+    "/share/gir-1.0",
+    "/share/vala"
   ],
   "modules": [
     {
